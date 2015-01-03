@@ -1,8 +1,8 @@
 <?php
 
-	$conn = mysql_connect("localhost", "root", "muro2kiri");
+	$conn = mysql_connect("HOST", "USERNAME", "PASSWORD");
 	if(!$conn) die(mysql_error());
-	$db = mysql_select_db("ben");
+	$db = mysql_select_db("DB_NAME");
 	if(!$db) die(mysql_error());
 	
 ?>
