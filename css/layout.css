@@ -1,0 +1,9 @@
+section{
+	width: 1100px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+abbr{
+	cursor: pointer;
+}
